@@ -11,7 +11,9 @@ unsigned int factorial (unsigned int n)
 int main () {
     int num = 4;
 
-    cout << "Enter NUmber of " << num << " is: "
+    cout << "Problem 6 in Responsi";
+    cout << "\n======================";
+    cout << "\nEnter NUmber of " << num << " is: "
          << factorial (num) << endl;
 
   return 0;
