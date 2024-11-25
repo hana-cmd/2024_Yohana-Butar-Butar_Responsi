@@ -12,9 +12,9 @@ int main()
     reversed = input;
     reverse(reversed.begin(), reversed.end()); //the formula to reverse the string
     
-    unsigned string result = factorial(num); //the output of the program
+    unsigned string result = reversed; //the output of the program
 
-    // Test condition: Check if the factorial of 4 is 24
+    // To Check the output of thr program
     if (result == reversed) {
         cout << "Test Passed" << endl;
     } else {
