@@ -1,28 +1,28 @@
 
 # Target to compile the object file
-Factorial: Factorial.o
-	g++ Factorial.o -o pay.exe
+ReverseString: ReverseString.o
+	g++ ReverseString.o -o pay.exe
 
 # Target to compile the C++ program
-Factorial.o: Factorial.cpp
-	g++ -c Factorial.cpp -o Factorial.o
+ReverseString.o: ReverseString.cpp
+	g++ -c ReverseString.cpp -o ReverseString.o
 
 # Target to run the program (interactively)
-run: Factorial
+run: ReverseString
 	./pay.exe
 
 # Target to compile the object Test file
-FactorialTest: FactorialTest.o
-	g++ FactorialTest.o -o FactorialTest.exe
+ReverseStringTest: ReverseStringTest.o
+	g++ ReverseStringTest.o -o ReverseStringTest.exe
 
 # Target to compile the C++ Test program
-FactorialTest.o: FactorialTest.cpp
-	g++ -c FactorialTest.cpp -o FactorialTest.o
+ReverseStringTest.o: ReverseStringTest.cpp
+	g++ -c ReverseStringTest.cpp -o ReverseStringTest.o
 
 # Target to run the Test program
-test: FactorialTest
-	./FactorialTest.exe
+test: ReverseStringTest
+	./ReverseStringTest.exe
 
 # Target to clean up compiled files
 clean:
-	rm -f Factorial.o FactorialTest.o pay.exe FactorialTest.exe
+	rm -f ReverseString.o ReverseStringTest.o pay.exe ReverseStringTest.exe
