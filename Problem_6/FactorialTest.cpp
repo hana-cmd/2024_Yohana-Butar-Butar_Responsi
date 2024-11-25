@@ -1,17 +1,18 @@
-// test.cpp
 #include <iostream>
 using namespace std;
 
-// Function to calculate factorial
-unsigned int factorial(unsigned int n) {
-    if (n == 0)
-        return 1;
-    return n * factorial(n - 1);
+unsigned int factorial (unsigned int n)
+{
+   if (n == 0) //the formula of the factorial
+     return 1;
+   return n * factorial (n - 1);   
 }
 
-int main() {
-    // Predefined test number
+int main () {
     int num = 4;
+
+    cout << "Problem 6 in Responsi";
+    cout << "\n======================";
     unsigned int result = factorial(num);
 
     // Test condition: Check if the factorial of 4 is 24
