@@ -1,23 +1,25 @@
+// test.cpp
 #include <iostream>
 using namespace std;
 
-unsigned int factorial (unsigned int n)
-{
-   if (n == 0)
-     return 1;
-   return n * factorial (n - 1);   
+// Function to calculate factorial
+unsigned int factorial(unsigned int n) {
+    if (n == 0)
+        return 1;
+    return n * factorial(n - 1);
 }
 
-int main () {
+int main() {
+    // Predefined test number
     int num = 4;
+    unsigned int result = factorial(num);
 
-    cout << "Enter NUmber of " << num << " is: "
-         << factorial (num) << endl;
+    // Test condition: Check if the factorial of 4 is 24
+    if (result == 24) {
+        cout << "Test Passed" << endl;
+    } else {
+        cout << "Test Not Passed" << endl;
+    }
 
-if (result == 24) {
-    cout << "Test Passed";
-} else {
-  cout << "Test not Passed";
-  
-  return 0;
+    return 0;
 }
