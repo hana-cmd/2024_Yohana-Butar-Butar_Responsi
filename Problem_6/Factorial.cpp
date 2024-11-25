@@ -13,7 +13,7 @@ int main () {
 
     cout << "Problem 6 in Responsi";
     cout << "\n======================";
-    cout << "\nEnter NUmber of " << num << " is: " //the output of the program
+    cout << "\nEnter Number of " << num << " is: " //the output of the program
          << factorial (num) << endl;
 
   return 0;
