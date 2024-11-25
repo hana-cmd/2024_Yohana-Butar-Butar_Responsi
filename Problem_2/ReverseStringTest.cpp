@@ -10,14 +10,14 @@ int main()
     cout << "Problem 2 in Responsi";
     cout << "\n======================";
     cout << "\nEnter the String: ";
-    cin >> input; //put the value of the string
+    cin >> input; // Put the value of the string
     
     reversed = input;
-    reverse(reversed.begin(), reversed.end()); //the formula to reverse the string
+    reverse(reversed.begin(), reversed.end()); // The formula to reverse the string
     
-    unsigned string result = reversed; //the output of the program
+    string result = reversed; // Save the reversed string to result
 
-    // To Check the output of thr program
+    // To check the output of the program
     if (result == reversed) {
         cout << "Test Passed" << endl;
     } else {
@@ -26,4 +26,3 @@ int main()
   
     return 0;
 }
-
