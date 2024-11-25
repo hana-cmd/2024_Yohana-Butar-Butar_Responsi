@@ -7,7 +7,9 @@ int main()
 {
     string input, reversed; //the formula for reverse the string
     
-    cout << "Enter the String: ";
+    cout << "Problem 2 in Responsi";
+    cout << "\n======================";
+    cout << "\nEnter the String: ";
     cin >> input; //put the value of the string
     
     reversed = input;
