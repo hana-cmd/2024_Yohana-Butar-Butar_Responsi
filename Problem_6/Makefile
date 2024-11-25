@@ -1,4 +1,3 @@
-
 # Target to compile the object file
 Factorial: Factorial.o
 	g++ Factorial.o -o pay.exe
