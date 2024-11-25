@@ -1,4 +1,3 @@
-
 # Target to compile the object file
 ReverseString: ReverseString.o
 	g++ ReverseString.o -o pay.exe
