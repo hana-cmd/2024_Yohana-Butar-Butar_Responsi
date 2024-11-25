@@ -5,7 +5,7 @@ using namespace std;
 
 int main() 
 {
-    string input, reversed; //the formula for reverse the string
+    string input, reversed; 
     
     cout << "Problem 2 in Responsi";
     cout << "\n======================";
